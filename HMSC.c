@@ -282,7 +282,7 @@ void delete1()
 {
 	FILE *f,*t;
 	int i=1;
-	char roomnumber[20];
+	char roomnumber[25];
 	if((t=fopen("temp.txt","w"))==NULL)
 	exit(0);
 	if((f=fopen("add.txt","r"))==NULL)
